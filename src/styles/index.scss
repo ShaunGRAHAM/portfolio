@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+//-----------------PX GROTESK------------------------//
+
+@font-face {
+    font-family: 'Px Grotesk Screen';
+    src:local('Px Grotesk Screen'),
+        url('../assets/fonts/PxGrotesk-Screen.woff2') format('woff2'),
+        url('../assets/fonts/PxGrotesk-Screen.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+//-----------------HELVETICA------------------------//
+@font-face {
+    font-family: 'HelveticaNeue 65';
+    src: url('../assets/fonts/HelveticaNeueLT-Medium.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue 55';
+    src: url('../assets/fonts/HelveticaNeueLT-Roman.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLT-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//-----------------SUISSE INT'L MONO------------------------//
+
+@font-face {
+    font-family: 'SuisseMonoReg';
+    src: url('../assets/fonts/SuisseIntlMono-Regular.woff2') format('woff2'),
+        url('../assets/fonts/SuisseIntlMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+  background-color: black;
+  font-family: 'SuisseMonoReg';
+}
+#root {
+
+}
+#main-container {
+  height: 100vh;
+  overflow: hidden;
+}
+.is-draggable:focus-visible {
+  outline-color: none;
+
+}

@@ -1,0 +1,25 @@
+ul, li {
+  list-style-type: none;
+}
+
+.menu {
+  text-decoration: none;
+}
+
+.navigation {
+
+  display: flex;
+  flex-direction: row;
+  border-bottom-width: 3px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+}
+
+
+.nav-active {
+  color: white;
+}
+
+.navlink-work, .navlink-about{
+  color: white;
+}

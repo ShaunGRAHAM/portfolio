@@ -1,0 +1,78 @@
+.project:not(.is-selected)  .infos .text {
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+
+.infos {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 10px;
+
+  border-top-color: white;
+  border-top-style: solid;
+  border-top-width: 3px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 6px;
+  padding-right: 6px;
+
+  padding-top: 6px;
+  padding-bottom: 1px;
+
+  font-family: 'SuisseMonoReg';
+  font-size: 12px;
+  @media (max-width: 640px) {
+      padding-top: 2px;
+      }
+
+
+  .name{
+    display: flex;
+    flex-direction: row;
+    p.hidden {
+      display: none;
+    }
+  }
+
+  .description{
+    display: flex;
+    flex-direction: column;
+  }
+  .visible {
+    padding-left: 5px;
+    display: auto;
+  }
+.reducedText{
+  font-size: 10px;
+  line-height: 1;
+}
+
+  .category{
+
+  }
+  .year{
+
+  }
+  .info{
+
+  }
+  .description{
+
+  }
+}
+
+p {
+  //text-align: center;
+  color: white;
+}
+
+
