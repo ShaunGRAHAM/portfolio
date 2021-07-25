@@ -99,13 +99,13 @@ updatePages = () => {
     }
 
     </Flickity>
-    <button className="left previous flickity-button flickity-prev-next-button"
+    <button className="left previous"
     type="button"
     aria-label="Previous"
     onClick={this.myCustomPrevious}
     onMouseEnter={this.autoPlayBtn}
     onMouseLeave={this.autoPlayBtn}> &lsaquo; </button>
-    <button className="right next flickity-button flickity-prev-next-button"
+    <button className="right next"
     type="button"
     aria-label="Next"
     onClick={this.myCustomNext}
