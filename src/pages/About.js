@@ -10,8 +10,8 @@ const About = () => {
       <div className="top py-2">
           <a className="contact pr-1 py-1" href="mailto:shaun.o.graham@gmail.com">Mail,</a>
           <a className="contact pr-1 py-1" href="https://instagram.com/shn_grhm">Instagram,</a>
-          <a className="contact pr-1 py-1" href="mailto:shaun.o.graham@gmail.com">Twitter,</a>
-          <a className="contact pr-1 py-1" href="mailto:shaun.o.graham@gmail.com">Behance</a>
+          <a className="contact pr-1 py-1" href="https://twitter.com/GRAHAMSHAUN3">Twitter,</a>
+          <a className="contact pr-1 py-1" href="https://www.behance.net/Shaun_Graham">Behance</a>
       </div>
       <div className="about">
         <div className="about-left mr-3">
