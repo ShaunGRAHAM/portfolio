@@ -80,6 +80,7 @@ updatePages = () => {
       pageDots: false,
       autoPlay: 3500,
       pauseAutoPlayOnHover: false,
+      prevNextButtons: false,
     }
 
     return (
