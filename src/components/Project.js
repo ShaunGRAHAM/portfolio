@@ -27,7 +27,7 @@ class Project extends Component {
           </div>
           <div className="infos item-center justify-center" onMouseEnter={this.onEnter} onMouseLeave={this.onEnter}>
             <div className="text name px-5" >
-                <p>{this.props.title} </p>
+                <p className="project-title">{this.props.title} </p>
                 <p className={this.state.hover ? 'visible' : 'hidden'}>[{this.props.category} — {this.props.year} — {this.props.info}]</p>
             </div>
 
