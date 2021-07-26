@@ -35,15 +35,13 @@
     .left-top{
       max-width: 300px;
       margin-right: 12.5rem;
-      @media (max-width: 640px) {
-          margin-right: 0.75rem;
-        }
 
       .text-top-left {
         font-size: 20px;
         font-family: "HelveticaNeue 65";
         @media (max-width: 640px) {
           font-size: 12px;
+          margin-right: 0.75rem;
         }
       }
     }
