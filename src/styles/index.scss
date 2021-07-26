@@ -48,17 +48,16 @@
 body {
   background-color: black;
   font-family: 'SuisseMonoReg';
-  overflow-y: hidden;
 
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+
 }
 #root {
 
 }
 #main-container {
-  height: 100vh;
   overflow: hidden;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 .is-draggable:focus-visible {
   outline-color: none;
