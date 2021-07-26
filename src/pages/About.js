@@ -14,9 +14,9 @@ const About = () => {
           <a className="contact pr-1 py-1" href="https://www.behance.net/Shaun_Graham">Behance</a>
       </div>
       <div className="about">
-        <div className="about-left mr-50">
+        <div className="about-left ">
           <div className="left-top">
-            <p>French Graphic Designer, Graduated from a master's degree in digital design at Saint-Etienne's Higher Education School in Art and Design  <br />
+            <p className="text-top-left">French Graphic Designer, Graduated from a master's degree in digital design at Saint-Etienne's Higher Education School in Art and Design  <br />
             Working as a freelancer and spliting my time between clients, collaborations and self initiated projects. My main focus has been on digital creations, 3D CGI and creative coding    </p>
           </div>
           <div className="bottom py-6" >
