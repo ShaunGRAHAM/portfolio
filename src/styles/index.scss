@@ -48,6 +48,10 @@
 body {
   background-color: black;
   font-family: 'SuisseMonoReg';
+  overflow-y: hidden;
+
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 #root {
 
