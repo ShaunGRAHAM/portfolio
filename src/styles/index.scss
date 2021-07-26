@@ -55,7 +55,7 @@ body {
 
 }
 #main-container {
-  overflow: hidden;
+  overflow: hidden !important;
   min-height: 100vh;
   min-height: -webkit-fill-available;
 }

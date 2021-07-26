@@ -8,6 +8,8 @@ ul, li {
 }
 
 .navigation {
+  position: -webkit-sticky;
+  position: sticky;
   display: flex;
   flex-direction: row;
   border-bottom-width: 3px;
