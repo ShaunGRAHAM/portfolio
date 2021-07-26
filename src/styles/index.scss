@@ -43,21 +43,20 @@
     font-display: swap;
 }
 
-
+html {
+  height: -webkit-fill-available;
+}
 
 body {
   background-color: black;
   font-family: 'SuisseMonoReg';
-
-
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 #root {
-
 }
 #main-container {
   overflow: hidden !important;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
 .is-draggable:focus-visible {
   outline-color: none;
