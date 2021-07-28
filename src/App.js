@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
+import Loader from './components/Loader.js';
 
 
 
-const App = () => {
+function App () {
   return (
     <div id="main-container">
       <Switch>

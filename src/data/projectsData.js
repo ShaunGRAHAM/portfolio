@@ -73,7 +73,6 @@ export const projectsData = [
            "../../assets/04_MEMOIRE/MEMOIRE_03.jpg",
            "../../assets/04_MEMOIRE/MEMOIRE_12.jpg",
            "../../assets/04_MEMOIRE/MEMOIRE_07.jpg",
-           "../../assets/04_MEMOIRE/MEMOIRE_07_02.jpg",
            "../../assets/04_MEMOIRE/MEMOIRE_08.jpg",
            "../../assets/04_MEMOIRE/MEMOIRE_09.jpg",
            "../../assets/04_MEMOIRE/MEMOIRE_10.jpg",
