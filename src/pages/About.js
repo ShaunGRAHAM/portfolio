@@ -7,7 +7,7 @@ const About = () => {
     <div >
     <Navigation></Navigation>
     <div className="about-main px-6 py-1">
-      <div className="top py-2">
+      <div className="top py-2 mb-2">
           <a className="contact pr-1 py-1" href="mailto:shaun.o.graham@gmail.com">Mail,</a>
           <a className="contact pr-1 py-1" href="https://instagram.com/shn_grhm">Instagram,</a>
           <a className="contact pr-1 py-1" href="https://twitter.com/GRAHAMSHAUN3">Twitter,</a>
@@ -16,9 +16,13 @@ const About = () => {
       <div className="about">
         <div className="about-left ">
           <div className="left-top">
-            <p className="text-top-left">French Graphic Designer, Graduated from a master's degree in digital design at Saint-Etienne's Higher Education School in Art and Design  <br />
-            Working as a freelancer and spliting my time between clients, collaborations and self initiated projects. My main focus has been on digital creations, 3D CGI and creative coding    </p>
+            <p className="text-top-left">French Graphic Designer, Graduated from a master's degree in digital design at Saint-Etienne's Higher Education School in Art and Design. </p>
           </div>
+          <p className="text-top-left"> Working as a freelancer and spliting my time between clients, collaborations and self initiated projects</p>
+          </div>
+          <p className="text-top-left"> My main focus has been on digital creations, 3D CGI and creative coding</p>
+          </div>
+
           <div className="bottom py-6" >
             <p className="adress">3 RUE GRENETTE</p>
             <p className="adress"> 69002 LYON, FRANCE</p>
