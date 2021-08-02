@@ -35,8 +35,11 @@ button  {
   background-color: none;
   position: absolute;
   color: white;
+  cursor: pointer;
   font-family: 'Px Grotesk Screen';
   font-size: 130px;
+
+
   @media (max-width: 640px) {
       top: calc(50% - 97px);
       }
@@ -66,7 +69,8 @@ button:focus {
   //padding-left: 10px;
 }
 .btn-autoPlay {
-  font-size: 12px;
+  cursor: pointer;
+  font-size: 14px;
   position: absolute;
   top: 8px;
   right: 3px;

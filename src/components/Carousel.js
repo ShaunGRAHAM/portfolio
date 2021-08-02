@@ -16,7 +16,7 @@ class Carousel extends Component {
       totalPages: null,
       selectedPage: null,
       autoPlay: true,
-      btnPause: "pause",
+      btnPause: "⑴",
     };
   }
 
@@ -38,20 +38,20 @@ autoPlayBtn = () => {
     this.flkty.pausePlayer();
     this.setState({
       autoPlay: !this.state.autoPlay,
-      btnPause: "resume",
+      btnPause: '１' ,
     });
   } else {
     this.flkty.unpausePlayer();
     this.setState({
       autoPlay: !this.state.autoPlay,
-      btnPause: "pause",
+      btnPause: "⑴",
     });
   }
 }
 autoPlayPause =() => {
   this.flkty.pausePlayer();
   this.setState({
-    btnPause: "resume",
+    btnPause: '１',
   });
 }
 
@@ -75,12 +75,13 @@ updatePages = () => {
 
   render (){
     const flickityOptions = {
-      initialIndex:2,
+      initialIndex:49,
       wrapAround: true,
       pageDots: false,
       autoPlay: 3500,
       pauseAutoPlayOnHover: false,
       prevNextButtons: false,
+      lazyLoad: 2,
     }
 
     return (

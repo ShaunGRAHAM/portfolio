@@ -17,8 +17,8 @@ const About = () => {
         <div className="about-left ">
           <div className="left-top">
             <p className="text-top-left">French Graphic Designer, Graduated from a master's degree in digital design at Saint-Etienne's Higher Education School in Art and Design. </p>
-            <p className="text-top-left"> Working as a freelancer and spliting my time between clients, collaborations and self initiated projects</p>
-            <p className="text-top-left"> My main focus has been on digital creations, 3D CGI and creative coding</p>
+            <p className="text-top-left"> Working as a freelancer and spliting my time between clients, collaborations and self initiated projects.</p>
+            <p className="text-top-left"> My main focus has been on digital creations, 3D CGI and creative coding.</p>
           </div>
           <div className="bottom py-6" >
             <p className="adress">3 RUE GRENETTE</p>
