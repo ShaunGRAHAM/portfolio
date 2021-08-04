@@ -103,7 +103,7 @@ export const projectsData = [
       title: "DIPLOME DNSEP",
       category: "Art Direction, Design & Editorial",
       year:"2017",
-      info:"Exhibition, Offset print Posters,",
+      info:"Exhibition, Offset print Posters, Digital app",
       description:"",
       img:[
             "../../assets/06_DIPLOME/DIPLOME_01.jpg",
@@ -119,7 +119,7 @@ export const projectsData = [
     id: 6,
     project: {
       title: "IN LIMBO",
-      category: "Design & Typorgraphy",
+      category: "Design & Typography",
       year:"2018",
       info:"Font",
       description:"Custom design lettering",
