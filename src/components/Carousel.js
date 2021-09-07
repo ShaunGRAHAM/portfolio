@@ -75,7 +75,7 @@ updatePages = () => {
 
   render (){
     const flickityOptions = {
-      initialIndex:46,
+      initialIndex:52,
       wrapAround: true,
       pageDots: false,
       autoPlay: 3500,

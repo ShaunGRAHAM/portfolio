@@ -121,18 +121,17 @@ export const projectsData = [
       title: "FRANKFURT BOOK FAIR",
       category: "Art Direction, Design, Scenography & Typography",
       year:"2018",
-      info:"Exhibition, French pavillon",
+      info:"Exhibition",
       description:"Custom design lettering",
       img:[
             "../../assets/12_FRANCFORT/BURMESSE_5.jpeg",
             "../../assets/12_FRANCFORT/BURMESSE_6.jpeg",
             "../../assets/12_FRANCFORT/BURMESSE_4.jpeg",
             "../../assets/12_FRANCFORT/BURMESSE_8.jpeg",
-            "../../assets/12_FRANCFORT/BURMESSE_2.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_3.jpeg",
             "../../assets/12_FRANCFORT/BURMESSE_1.jpeg"
           ],
     }
-
   },
 
 
