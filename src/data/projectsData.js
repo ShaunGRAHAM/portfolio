@@ -118,6 +118,27 @@ export const projectsData = [
   {
     id: 6,
     project: {
+      title: "FRANKFURT BOOK FAIR",
+      category: "Art Direction, Design, Scenography & Typography",
+      year:"2018",
+      info:"Exhibition, French pavillon",
+      description:"Custom design lettering",
+      img:[
+            "../../assets/12_FRANCFORT/BURMESSE_5.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_6.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_4.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_8.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_2.jpeg",
+            "../../assets/12_FRANCFORT/BURMESSE_1.jpeg"
+          ],
+    }
+
+  },
+
+
+  {
+    id: 7,
+    project: {
       title: "IN LIMBO",
       category: "Design & Typography",
       year:"2018",
@@ -132,7 +153,7 @@ export const projectsData = [
 
   },
   {
-    id: 7,
+    id: 8,
     project: {
       title: "WWWESH STUDIO WEB SITE",
       category: "Design & Development",
@@ -149,7 +170,7 @@ export const projectsData = [
 
   },
   {
-    id: 8,
+    id: 9,
     project: {
       title: "LES HOMMES D'ABORD FOR CAMDEN LYON",
       category: "Design, 3D, CGI",
@@ -165,7 +186,7 @@ export const projectsData = [
     }
   },
   {
-    id: 9,
+    id: 10,
     project: {
       title: "MATERIAL EXPLORATION SERIES",
       category:"Design, 3D, CGI",
@@ -179,7 +200,7 @@ export const projectsData = [
     }
   },
   {
-    id: 10,
+    id: 11,
     project: {
       title: "MATERIAL EXPLORATION SERIES",
       category:"Design, 3D, CGI",
